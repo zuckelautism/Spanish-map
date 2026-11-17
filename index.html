@@ -171,7 +171,7 @@ const LESSON = {
 };
 let REGION_INFO={};
 fetch("./region-info.json").then(r=>{if(!r.ok)throw Error("No se pudo cargar la información");return r.json()})
-  .then(data=>{REGION_INFO=data;})
+  .then(data=>{REGION_INFO=data;if(selected)select(selected);})
   .catch(()=>{REGION_INFO={};});
 const NS="http://www.w3.org/2000/svg", $=id=>document.getElementById(id);
 const reducedMotion=matchMedia("(prefers-reduced-motion: reduce)");
