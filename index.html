@@ -57,13 +57,13 @@ html,body{margin:0;height:100%;overflow:hidden;background:var(--sea2);color:var(
 #ov line{stroke:var(--accent);stroke-width:2.5}
 #ov .halo{stroke:#fff;stroke-width:6;stroke-linecap:round}
 #ov circle{fill:#fff;stroke:var(--accent);stroke-width:3.5}
-.card{position:absolute;background:var(--panel);border:1px solid var(--line);border-left-width:6px;border-radius:18px;padding:12px 16px;box-shadow:var(--shadow);overflow:auto;overscroll-behavior:contain;max-height:42%;bottom:calc(12px + env(safe-area-inset-bottom,0px))}
+.card{position:absolute;background:var(--panel);border:1px solid var(--line);border-left-width:6px;border-radius:18px;padding:12px 16px;box-shadow:var(--shadow);overflow:auto;overscroll-behavior:contain;max-height:62%;bottom:calc(12px + env(safe-area-inset-bottom,0px))}
 .card[hidden]{display:none}
 .card p+p{margin-top:6px}
 .card:focus-visible,.btn:focus-visible,.chip:focus-visible,input:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
 .card .tag{font-size:.7rem;text-transform:uppercase;letter-spacing:.12em;color:var(--muted)}
 .card h2{margin:3px 0 5px;font-size:1.2rem;display:flex;align-items:center;gap:10px}
-.card p{margin:0;line-height:1.55}
+.card p{margin:0;line-height:1.55}.region-info{border-top:1px solid var(--line);padding-top:7px;margin-top:8px}.region-info h3{font-size:.88rem;margin:0 0 3px;color:var(--muted)}
 .dot{width:14px;height:14px;border-radius:50%;flex:none;border:2px solid #fff;box-shadow:0 0 0 1px var(--line)}
 #title{position:absolute;top:calc(14px + env(safe-area-inset-top,0px));left:16px;background:color-mix(in srgb,var(--panel) 85%,transparent);border:1px solid var(--line);border-radius:14px;padding:10px 16px;backdrop-filter:blur(6px);pointer-events:none}
 #title h1{margin:0;font-size:1.3rem}
@@ -169,6 +169,10 @@ const LESSON = {
   ceuta: ["Ceuta", "Ceuta es una ciudad autónoma española en el norte de África. Está junto al estrecho de Gibraltar."],
   melilla: ["Melilla", "Melilla es una ciudad autónoma española en el norte de África. Está junto al mar Mediterráneo."],
 };
+let REGION_INFO={};
+fetch("./region-info.json").then(r=>{if(!r.ok)throw Error("No se pudo cargar la información");return r.json()})
+  .then(data=>{REGION_INFO=data;})
+  .catch(()=>{REGION_INFO={};});
 const NS="http://www.w3.org/2000/svg", $=id=>document.getElementById(id);
 const reducedMotion=matchMedia("(prefers-reduced-motion: reduce)");
 const svg=$("map"), wrap=$("wrap"), gR=$("regions"), gL=$("labels"), card=$("card"), list=$("menu"), tip=$("tip");
@@ -336,7 +340,8 @@ function mark(id,u){
 }
 function select(id){
   selected=id; tip.style.opacity=0; setMenu(false); setTools(false);
-  const r=REGIONS[id], [name, text]=LESSON[id];
+  const r=REGIONS[id], [name, lessonText]=LESSON[id], info=REGION_INFO[id]||{};
+  const text=info.general||lessonText;
   const cities=(CITIES[id]||[]).map(([city])=>city);
   const capitalCount=id==="kanaren"?2:1;
   const capitalLabel=id==="kanaren"?"Capitales":id==="castleon"||id==="baskenland"?"Sede del gobierno":"Capital";
@@ -346,9 +351,14 @@ function select(id){
     id==="balearen"?'<p><span lang="ca">Illes Balears</span></p>':"";
   const inset=id==="kanaren"?'<p class="inset" lang="de">Versetzter Kartenausschnitt. Entfernungen zum Festland sind nicht maßstabsgetreu.</p>':"";
   card.style.borderLeftColor=r.color;
+  const sections=[
+    ["Naturaleza y actividades",info.nature],["Gastronomía",info.food],
+    ["Idiomas",info.language],["Lugares turísticos",info.places],["Gobierno",info.government]
+  ].filter(([,value])=>value).map(([heading,value])=>`<section class="region-info"><h3>${heading}</h3><p>${value}</p></section>`).join("");
   card.innerHTML=`<div lang="es"><span class="tag">${cities.length?"Comunidad autónoma":"Ciudad autónoma"}</span>
     <h2 id="region-name"><span class="dot" aria-hidden="true" style="background:${r.color}"></span>${name}</h2>
-    <p>${text}</p>${official}${capital}${others}</div>${inset}<p lang="es" class="active-task" hidden></p>`;
+    <section class="region-info"><h3>Información general</h3><p>${text}</p></section>
+    ${official}${capital}${others}${sections}</div>${inset}<p lang="es" class="active-task" hidden></p>`;
   showTask();
   card.hidden=false; card.scrollTop=0; placeCard();
   const bx=boxFor(id); mark(id,bx[2]/cw());
