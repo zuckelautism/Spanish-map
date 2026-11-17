@@ -1,0 +1,173 @@
+{
+  "galicien": {
+    "title": "Galicia",
+    "general": "Está en el noroeste de España. Su capital es Santiago de Compostela y tiene cuatro provincias: A Coruña, Lugo, Ourense y Pontevedra.",
+    "nature": "Costa atlántica, montañas y bosques. Se puede practicar senderismo, surf y visitar las Rías Baixas y el Parque Nacional de las Islas Atlánticas.",
+    "food": "Pulpo a feira, empanada gallega, caldo gallego y tarta de Santiago.",
+    "language": "El castellano y el gallego son oficiales. El gallego es una lengua romance propia de Galicia.",
+    "places": "Santiago de Compostela y su catedral; Torre de Hércules en A Coruña; Islas Cíes; Ribeira Sacra.",
+    "government": "La Xunta de Galicia dirige la comunidad. Se ocupa de la educación, la sanidad, el transporte, la cultura y el desarrollo económico."
+  },
+  "asturien": {
+    "title": "Asturias",
+    "general": "Está en el norte de España, entre el mar Cantábrico y la cordillera Cantábrica. Su capital es Oviedo y es una comunidad uniprovincial.",
+    "nature": "Tiene costa, montañas y bosques. Destacan los Picos de Europa y los Lagos de Covadonga. Se puede hacer senderismo, ciclismo, surf y kayak.",
+    "food": "Fabada asturiana, cachopo, quesos asturianos y arroz con leche.",
+    "language": "El castellano es oficial. También se habla asturiano (bable), una lengua tradicional protegida.",
+    "places": "Oviedo y su catedral; Gijón; Lagos de Covadonga; Parque Nacional de los Picos de Europa.",
+    "government": "El Gobierno del Principado de Asturias gestiona la educación, la sanidad, la economía, la cultura y el medio ambiente."
+  },
+  "kantabrien": {
+    "title": "Cantabria",
+    "general": "Está en el norte de España, junto al mar Cantábrico. Su capital es Santander y es una comunidad uniprovincial.",
+    "nature": "Tiene playas, acantilados, valles y montañas. Destacan los Picos de Europa y el Parque Natural de Cabárceno. Se puede practicar senderismo, surf y espeleología.",
+    "food": "Cocido montañés, sobaos pasiegos, quesada pasiega y anchoas de Santoña.",
+    "language": "El idioma oficial es el castellano. Se conservan variedades y palabras tradicionales cántabras.",
+    "places": "Santander y la península de la Magdalena; Cueva de Altamira; Santillana del Mar; Parque de Cabárceno.",
+    "government": "El Gobierno de Cantabria se ocupa de la educación, la sanidad, la economía, el turismo y la protección del patrimonio natural."
+  },
+  "baskenland": {
+    "title": "País Vasco",
+    "general": "Está en el norte de España. Su capital administrativa es Vitoria-Gasteiz y está formado por Álava, Bizkaia y Gipuzkoa.",
+    "nature": "Tiene montañas verdes, bosques, playas y acantilados. Se puede practicar senderismo, surf y ciclismo. Destacan Urdaibai y el parque de Gorbeia.",
+    "food": "Pintxos, bacalao al pil-pil, marmitako, gildas y tarta de queso vasca.",
+    "language": "El castellano y el euskera son oficiales. El euskera es una lengua antigua que no pertenece a la familia de las lenguas romances.",
+    "places": "Museo Guggenheim de Bilbao; playa de La Concha; San Juan de Gaztelugatxe; Vitoria-Gasteiz; Gernika.",
+    "government": "El Gobierno Vasco (Eusko Jaurlaritza) está dirigido por un lehendakari. Gestiona, entre otros ámbitos, educación, sanidad, transporte y cultura."
+  },
+  "navarra": {
+    "title": "Navarra",
+    "general": "Está en el norte de España. Su capital es Pamplona y constituye una sola provincia. Limita con Francia, Aragón, La Rioja y el País Vasco.",
+    "nature": "Tiene Pirineos, bosques, ríos y paisajes semidesérticos. Destacan la Selva de Irati y las Bardenas Reales. Se puede practicar senderismo, ciclismo y esquí.",
+    "food": "Pimientos del piquillo, pochas, chistorra, queso Roncal y espárragos.",
+    "language": "El castellano es oficial en toda Navarra. El euskera también es oficial en las zonas donde lo establece la legislación.",
+    "places": "Pamplona y sus fiestas de San Fermín; Bardenas Reales; Palacio Real de Olite; Selva de Irati; Monasterio de Leyre.",
+    "government": "El Gobierno de Navarra ejerce las competencias propias de la comunidad foral, como educación, sanidad, servicios sociales y economía."
+  },
+  "larioja": {
+    "title": "La Rioja",
+    "general": "Está en el norte de España. Su capital es Logroño y es una comunidad autónoma de una sola provincia.",
+    "nature": "Tiene viñedos, montañas, bosques y ríos. Destacan la Sierra de Cebollera y los paisajes del valle del Ebro. Se puede practicar senderismo y ciclismo.",
+    "food": "Patatas a la riojana, chuletillas al sarmiento, pimientos rellenos y verduras de temporada. La región es famosa por sus vinos.",
+    "language": "El idioma oficial es el castellano. San Millán de la Cogolla está relacionado con los primeros testimonios escritos del castellano.",
+    "places": "Monasterios de San Millán de la Cogolla; Calle Laurel de Logroño; Haro y sus bodegas; Santo Domingo de la Calzada; Ezcaray.",
+    "government": "El Gobierno de La Rioja gestiona educación, sanidad, agricultura, economía, cultura, turismo y medio ambiente."
+  },
+  "castleon": {
+    "title": "Castilla y León",
+    "general": "Está en el noroeste y el interior de España. Su capital administrativa es Valladolid y está formada por nueve provincias.",
+    "nature": "Tiene grandes llanuras, montañas, ríos y espacios naturales. Se puede practicar senderismo, ciclismo, esquí y observación de aves.",
+    "food": "Lechazo asado, morcilla de Burgos, cochinillo de Segovia, sopa castellana y quesos.",
+    "language": "El idioma oficial es el castellano, cuyo desarrollo histórico está muy vinculado a esta región.",
+    "places": "Acueducto de Segovia; Catedral de Burgos; murallas de Ávila; Universidad de Salamanca; Las Médulas.",
+    "government": "La Junta de Castilla y León dirige la comunidad y gestiona educación, sanidad, transporte, cultura y desarrollo rural."
+  },
+  "extremadura": {
+    "title": "Extremadura",
+    "general": "Está en el oeste de España y limita con Portugal. Su capital es Mérida y está formada por Cáceres y Badajoz.",
+    "nature": "Tiene dehesas, ríos, embalses y montañas. Monfragüe es famoso por sus aves. Se puede practicar senderismo, ciclismo y observación de fauna.",
+    "food": "Jamón ibérico de bellota, migas extremeñas, torta del Casar y caldereta de cordero.",
+    "language": "El idioma oficial es el castellano. En algunas localidades se conservan variedades tradicionales como el extremeño y la fala.",
+    "places": "Teatro romano de Mérida; casco histórico de Cáceres; Trujillo; Parque Nacional de Monfragüe; Guadalupe.",
+    "government": "La Junta de Extremadura gestiona educación, sanidad, agricultura, economía, cultura y desarrollo rural."
+  },
+  "andalusien": {
+    "title": "Andalucía",
+    "general": "Está en el sur de España. Su capital es Sevilla y tiene ocho provincias: Almería, Cádiz, Córdoba, Granada, Huelva, Jaén, Málaga y Sevilla.",
+    "nature": "Tiene playas mediterráneas y atlánticas, montañas y parques naturales. Destacan Sierra Nevada, Doñana y Cabo de Gata. Se puede practicar senderismo, esquí y deportes acuáticos.",
+    "food": "Gazpacho, salmorejo, pescaíto frito, jamón ibérico y flamenquín.",
+    "language": "El idioma oficial es el castellano. El habla andaluza presenta distintos acentos y rasgos regionales.",
+    "places": "Alhambra de Granada; Mezquita-Catedral de Córdoba; Giralda y Alcázar de Sevilla; pueblos blancos; Parque Nacional de Doñana.",
+    "government": "La Junta de Andalucía dirige la comunidad y gestiona educación, sanidad, transporte, cultura, turismo y medio ambiente."
+  },
+  "castmancha": {
+    "title": "Castilla-La Mancha",
+    "general": "Está en el centro de España. Su capital es Toledo y tiene cinco provincias: Albacete, Ciudad Real, Cuenca, Guadalajara y Toledo.",
+    "nature": "Tiene llanuras, montañas, bosques y lagunas. Destacan las Lagunas de Ruidera, Cabañeros y el nacimiento del río Mundo. Se puede practicar senderismo y ciclismo.",
+    "food": "Pisto manchego, queso manchego, migas, gazpacho manchego y mazapán de Toledo.",
+    "language": "El idioma oficial es el castellano. La región está muy vinculada a la obra Don Quijote de la Mancha.",
+    "places": "Toledo; Casas Colgadas de Cuenca; molinos de Consuegra; Ciudad Encantada; parque arqueológico de Segóbriga.",
+    "government": "La Junta de Comunidades de Castilla-La Mancha gestiona educación, sanidad, agricultura, economía, cultura y medio ambiente."
+  },
+  "madrid": {
+    "title": "Comunidad de Madrid",
+    "general": "Está en el centro de España. Su capital es Madrid, que también es la capital del país. Es una comunidad uniprovincial y una de las regiones más pobladas.",
+    "nature": "Combina parques urbanos, bosques y montañas. La Sierra de Guadarrama ofrece rutas de senderismo y deportes de invierno. El Retiro es uno de sus parques más conocidos.",
+    "food": "Cocido madrileño, bocadillo de calamares, churros con chocolate y callos a la madrileña.",
+    "language": "El idioma oficial es el castellano. En la región también se hablan muchas otras lenguas por su diversidad cultural.",
+    "places": "Palacio Real; Museo del Prado; Parque del Retiro; Puerta del Sol; Monasterio de El Escorial; Alcalá de Henares.",
+    "government": "El Gobierno de la Comunidad de Madrid gestiona educación, sanidad, transporte público, economía, cultura y servicios sociales."
+  },
+  "murcia": {
+    "title": "Región de Murcia",
+    "general": "Está en el sureste de España, junto al mar Mediterráneo. Su capital es Murcia y es una comunidad de una sola provincia.",
+    "nature": "Tiene playas, montañas, parques naturales y huertas. Destacan el Mar Menor, Calblanque y Sierra Espuña. Se puede practicar senderismo, kayak, vela y ciclismo.",
+    "food": "Zarangollo, caldero del Mar Menor, pastel de carne, paparajotes y frutas y verduras de la huerta.",
+    "language": "El idioma oficial es el castellano. En la región se habla con rasgos propios conocidos como habla murciana.",
+    "places": "Catedral de Murcia; Teatro Romano de Cartagena; Castillo de Lorca; Mar Menor; Parque Regional de Calblanque.",
+    "government": "El Gobierno de la Región de Murcia gestiona educación, sanidad, agricultura, economía, cultura, turismo y protección del medio ambiente."
+  },
+  "valencia": {
+    "title": "Comunidad Valenciana",
+    "general": "Está en el este de España, junto al Mediterráneo. Su capital es Valencia y tiene tres provincias: Alicante, Castellón y Valencia.",
+    "nature": "Tiene playas, montañas, bosques y humedales. Destacan la Costa Blanca, la Albufera y las sierras del interior. Se puede practicar senderismo, kayak, natación y ciclismo.",
+    "food": "Paella valenciana, horchata con fartons, fideuà y turrón de Alicante.",
+    "language": "El castellano y el valenciano son idiomas oficiales. El valenciano es una variedad de la lengua catalana y se utiliza en la educación y la administración.",
+    "places": "Ciudad de las Artes y las Ciencias; Lonja de la Seda; Castillo de Peñíscola; Castillo de Santa Bárbara; Parque Natural de la Albufera.",
+    "government": "La Generalitat Valenciana gestiona educación, sanidad, transporte, economía, cultura y promoción de las lenguas oficiales."
+  },
+  "aragon": {
+    "title": "Aragón",
+    "general": "Está en el noreste de España. Su capital es Zaragoza y está formado por Huesca, Teruel y Zaragoza.",
+    "nature": "Tiene los Pirineos, bosques, ríos y llanuras. Destaca el Parque Nacional de Ordesa y Monte Perdido. Se puede practicar senderismo, esquí, ciclismo y escalada.",
+    "food": "Ternasco de Aragón, migas, jamón de Teruel y melocotón de Calanda.",
+    "language": "El castellano es oficial. También se hablan aragonés en algunas zonas del norte y catalán en zonas del este.",
+    "places": "Basílica del Pilar; Palacio de la Aljafería; Parque Nacional de Ordesa; Albarracín; arte mudéjar de Teruel.",
+    "government": "El Gobierno de Aragón gestiona educación, sanidad, agricultura, economía, cultura y desarrollo de las zonas rurales."
+  },
+  "katalonien": {
+    "title": "Cataluña",
+    "general": "Está en el noreste de España. Su capital es Barcelona y está formada por Barcelona, Girona, Lleida y Tarragona.",
+    "nature": "Tiene playas, calas, montañas y bosques. Destacan la Costa Brava, los Pirineos y el Parque Nacional de Aigüestortes. Se puede practicar senderismo, esquí, ciclismo y deportes acuáticos.",
+    "food": "Pa amb tomàquet, crema catalana, calçots con salsa romesco, escalivada y butifarra.",
+    "language": "El catalán y el castellano son oficiales en toda Cataluña; el aranés también es oficial en Cataluña y especialmente en el Valle de Arán.",
+    "places": "Sagrada Familia; Parque Güell; Girona; anfiteatro romano de Tarragona; Montserrat.",
+    "government": "La Generalitat de Catalunya dirige la comunidad y gestiona educación, sanidad, transporte, cultura, economía y políticas lingüísticas."
+  },
+  "balearen": {
+    "title": "Islas Baleares",
+    "general": "Están en el mar Mediterráneo. Su capital es Palma, en Mallorca. Las islas principales son Mallorca, Menorca, Ibiza y Formentera.",
+    "nature": "Tienen playas, calas, montañas y parques naturales. Destacan la Serra de Tramuntana y las calas de Menorca. Se puede practicar natación, vela, kayak, senderismo y ciclismo.",
+    "food": "Ensaimada, sobrasada, tumbet, caldereta de langosta y queso de Mahón.",
+    "language": "El catalán y el castellano son oficiales. En las islas se hablan variedades del catalán, como el mallorquín, el menorquín y el ibicenco.",
+    "places": "Catedral de Palma; Dalt Vila en Ibiza; Ciutadella; playa de Ses Illetes; Cuevas del Drach.",
+    "government": "El Govern de les Illes Balears gestiona educación, sanidad, turismo y medio ambiente. Cada isla cuenta también con un consejo insular."
+  },
+  "kanaren": {
+    "title": "Islas Canarias",
+    "general": "Están en el océano Atlántico, cerca de la costa noroeste de África. Tienen dos capitales: Santa Cruz de Tenerife y Las Palmas de Gran Canaria. Son ocho islas: Tenerife, Gran Canaria, Lanzarote, Fuerteventura, La Palma, La Gomera, El Hierro y La Graciosa.",
+    "nature": "Tienen volcanes, playas, bosques y montañas. Destacan el Teide, Timanfaya, las dunas de Corralejo y Garajonay. Se puede practicar senderismo, surf, buceo y ciclismo.",
+    "food": "Papas arrugadas con mojo, gofio, ropa vieja canaria y queso majorero.",
+    "language": "El idioma oficial es el castellano. El habla canaria tiene rasgos propios e influencias históricas del español de Andalucía y América.",
+    "places": "Parque Nacional del Teide; Roque Nublo; Parque Nacional de Timanfaya; Dunas de Maspalomas; Santa Cruz de La Palma.",
+    "government": "El Gobierno de Canarias gestiona educación, sanidad, transporte, turismo y medio ambiente. Cada isla tiene además un cabildo insular."
+  },
+  "ceuta": {
+    "title": "Ceuta",
+    "general": "Está en el norte de África, junto al estrecho de Gibraltar. Es una ciudad autónoma española, rodeada por Marruecos y el mar.",
+    "nature": "Tiene playas, costa rocosa y el Monte Hacho. Se puede practicar senderismo, natación, buceo y deportes acuáticos.",
+    "food": "Pinchos morunos, cuscús, pescado frito y dulces de miel y frutos secos.",
+    "language": "El castellano es el idioma oficial. También se habla dariya, una variedad del árabe marroquí. Conviven distintas comunidades culturales y religiosas.",
+    "places": "Murallas Reales; Casa de los Dragones; Parque Marítimo del Mediterráneo; Monte Hacho; Plaza de África.",
+    "government": "La Ciudad Autónoma de Ceuta tiene una Asamblea y un presidente. Gestiona servicios y competencias propias, además de colaborar con la Administración General del Estado."
+  },
+  "melilla": {
+    "title": "Melilla",
+    "general": "Está en el norte de África, junto al mar Mediterráneo y la frontera con Marruecos. Es una ciudad autónoma española.",
+    "nature": "Tiene playas, parques y zonas costeras. Se puede practicar natación, buceo, ciclismo y paseos por la costa.",
+    "food": "Cuscús, pinchos morunos, pescado frito, pastela y dulces con miel y almendras.",
+    "language": "El castellano es el idioma oficial. También se habla dariya, una variedad del árabe marroquí. En la ciudad conviven diversas culturas y tradiciones.",
+    "places": "Melilla la Vieja; Plaza de España; Palacio de la Asamblea; Parque Hernández; Museo de Arqueología e Historia.",
+    "government": "La Ciudad Autónoma de Melilla cuenta con una Asamblea y un presidente. Gestiona servicios y competencias propias y coopera con la Administración General del Estado."
+  }
+}
